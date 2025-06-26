@@ -14,7 +14,7 @@ function Footer({ darkMode, setDarkMode }) {
           >
             {darkMode ? 'Mode clair' : 'Mode nuit'}
           </button>
-          <a href='/porfolio/TableauDeSynthèse.xlsx'
+          <a href='/portfolio/TableauDeSynthèse.xlsx'
             download
             className="text-purple-300 hover:text-white transition-colors duration-200"
           >

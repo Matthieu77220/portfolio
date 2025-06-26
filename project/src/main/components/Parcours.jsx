@@ -22,7 +22,7 @@ const parcours = [
 
   {
     titre:"Développeur stagiaire",
-    etablissement: "Saint-Maure-Des-Fossés",
+    etablissement: "Saint-Maur-Des-Fossés",
     annee: "28 avril 2025 - 25 juin 2025",
     description: "Développement d'un prototype de CRM pour courtier en prêt immobilier"
   }
