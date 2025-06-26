@@ -10,10 +10,46 @@ const skills = [
     description: "Bibliothèque JavaScript pour construire des interfaces utilisateur modernes et dynamiques."
   },
   {
-    title: "Node.js",
-    description: "Environnement d'exécution pour JavaScript côté serveur, idéal pour les API et applications backend."
+    title: "Java",
+    description: "Langage de programmation orienté objet, utilisé pour développer des applications robustes et évolutives."
+  },
+  {
+    title: "HTML & CSS",
+    description: "Langages de balisage et de style utilisés pour créer des pages web et des interfaces utilisateur."
+  },
+  {
+    title:'Tailwind CSS',
+    description: "Framework CSS utilitaire pour créer des designs modernes et réactifs rapidement."
+  },
+  {
+    title: "PHP",
+    description: "Langage de script côté serveur, utilisé pour développer des applications web dynamiques."
+  },
+  {
+    title: "MySQL",
+    description: "Système de gestion de base de données relationnelle, utilisé pour stocker et gérer des données."
+  },
+  { 
+    title: "Python",
+    description: "Langage de programmation polyvalent, utilisé pour le développement web, l'analyse de données et l'intelligence artificielle."
+  },
+  {
+    title: "FastAPI",
+    description: "Framework web moderne pour Python, utilisé pour créer des API rapides et performantes." 
+  },
+  {
+    title: "Typescript",
+    description: "Superset de JavaScript qui ajoute des types statiques, facilitant le développement d'applications robustes."
+  },
+  {
+    title: "Three.js",
+    description: "Bibliothèque JavaScript pour créer des graphiques 3D interactifs dans le navigateur. (Débutant)"
+  },
+  {
+    title: "Git",
+    description: "Système de contrôle de version distribué, utilisé pour suivre les modifications du code et collaborer efficacement."
   }
-  // Ajoute d'autres skills ici
+
 ]
 
 function Skills({darkMode}) {

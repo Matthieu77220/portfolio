@@ -10,7 +10,7 @@ function LandingFrame() {
     <div className="absolute inset-0 flex items-center justify-center z-10">
       <div className="bg-black/60 rounded-3xl px-10 py-12 shadow-2xl backdrop-blur-md text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-wide drop-shadow-lg">
-          Bienvenue sur mon Portfoliot
+          Bienvenue sur mon Portfolio
         </h1>
         <p className="text-lg md:text-xl text-white mb-8 font-medium drop-shadow">
           Découvrez mon profil

@@ -20,14 +20,14 @@ function Footer({ darkMode, setDarkMode }) {
           >
             Tableau de Synthèse
           </a>
-          <a
-            href="mailto:matthieu.dietrich77@gmail.com"
+          <a href='/Mon-CV.pdf'
+            download
             className="text-purple-300 hover:text-white transition-colors duration-200"
           >
-            Contact
+            Mon CV
           </a>
           <a
-            href="https://github.com/tonprofil"
+            href="https://github.com/Matthieu77220"
             target="_blank"
             rel="noopener noreferrer"
             className="text-purple-300 hover:text-white transition-colors duration-200"
@@ -35,7 +35,7 @@ function Footer({ darkMode, setDarkMode }) {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/tonprofil"
+            href="https://www.linkedin.com/in/matthieu-dietrich-1841a1309/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-purple-300 hover:text-white transition-colors duration-200"

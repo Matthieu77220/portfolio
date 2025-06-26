@@ -5,7 +5,7 @@ const parcours = [
     titre: "Baccalauréat général",
     etablissement: "Lycée Clément Ader",
     annee: "2023",
-    description: "Spécialité HGGSP(histoire-géographie-géopolitique-science politique)."
+    description: "Spécialité HGGSP(histoire-géographie-géopolitique-science politique), SES (sciences économiques et sociales)."
   },
   {
     titre: "L1 STAPS (LAS)",
