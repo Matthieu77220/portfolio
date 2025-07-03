@@ -20,7 +20,7 @@ function Footer({ darkMode, setDarkMode }) {
           >
             Tableau de Synthèse
           </a>
-          <a href='/portfolio/Mon-CV.pdf'
+          <a href='/portfolio/Mon-cv.pdf'
             download
             className="text-purple-300 hover:text-white transition-colors duration-200"
           >
