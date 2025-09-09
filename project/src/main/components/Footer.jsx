@@ -5,7 +5,7 @@ function Footer({ darkMode, setDarkMode }) {
     <footer className="w-full bg-gradient-to-r from-black/80 to-purple-900/80 py-8 mt-16">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-4">
         <div className="text-white text-lg font-semibold">
-          © {new Date().getFullYear()} Mon Portfoliot
+          © {new Date().getFullYear()} Mon Portfolio
         </div>
         <div className="flex gap-6 items-center">
           <button
