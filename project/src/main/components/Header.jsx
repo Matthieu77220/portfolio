@@ -5,6 +5,35 @@ function Header() {
         <span className="text-2xl font-extrabold text-white tracking-wide">
           Mon Portfolio
         </span>
+          <div className="flex-auto flex-nowrap space-x-8 ml-159">
+            <a
+                href="/portfolio/Mon-cv-alternance.pdf"
+                download
+                className="text-purple-300 hover:text-white transition-colors duration-200"
+              >
+                Mon CV
+            </a>
+          
+            <a
+                href="https://github.com/Matthieu77220"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-300 hover:text-white transition-colors duration-200"
+              >
+                GitHub
+            </a>
+          
+            <a
+                href="https://www.linkedin.com/in/matthieu-dietrich-1841a1309/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-300 hover:text-white transition-colors duration-200"
+              >
+                LinkedIn
+            </a>
+          </div>
+        
+
       </nav>
     </header>
   );

@@ -16,8 +16,8 @@ const projects = [
   {
     title: "CRM pour courtier en prêt immbobilier",
     description: "Première version du développement d'un crm permettant de gérer des utilisateurs ainsi que des demandes. la partie client a été codée avec les langages de programmation Typescript, et les frameworks React et TailwindCSS avec une architecture Vite. La partie serveur a été codée avec une base de donnée Mysql, et le langage de programmation Python et une de ses frameworks: FastAPI",
+    link: <a href="https://github.com/Matthieu77220/CRM_mvp" target="_blank">Cliqué ici pour voir mon repo github</a>
   }
-  // Ajoute d'autres projets ici
 ]
 
 function Projets({darkMode}) {
@@ -32,6 +32,7 @@ function Projets({darkMode}) {
           >
             <h3 className="text-xl font-semibold mb-2">{proj.title}</h3>
             <p className="text-sm mb-4">{proj.description}</p>
+            <a className="text-sm mb-4">{proj.link}</a>
           </div>
         ))}
       </div>
