@@ -32,7 +32,7 @@ function Projets({darkMode}) {
           >
             <h3 className="text-xl font-semibold mb-2">{proj.title}</h3>
             <p className="text-sm mb-4">{proj.description}</p>
-            <a className="text-sm mb-4">{proj.link}</a>
+            <a className="text-xl mb-4 underline">{proj.link}</a>
           </div>
         ))}
       </div>
