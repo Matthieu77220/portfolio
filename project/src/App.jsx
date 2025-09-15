@@ -4,6 +4,8 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import LandingFrame from './landing/LandingFrame'
 import MouseTrail from './landing/MouseTrail'
 import MainPage from './main/MainPage'
+import ContactMe from './main/components/contact'
+
 
 function App() {
   const mountRef = useRef(null)
@@ -108,9 +110,11 @@ function App() {
         />
       )}
       {isLanding && <MouseTrail />}
+     
       <Routes>
         <Route path="/" element={<LandingFrame />} />
         <Route path="/MainPage" element={<MainPage />} />
+        <Route path="/contact" element={<ContactMe />} />
       </Routes>
     </>
   )

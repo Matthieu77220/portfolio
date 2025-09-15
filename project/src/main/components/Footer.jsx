@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+
 
 function Footer({ darkMode, setDarkMode }) {
   return (
@@ -38,6 +40,14 @@ function Footer({ darkMode, setDarkMode }) {
           >
             LinkedIn
           </a>
+
+          <Link
+            to="/contact"
+            className="text-purple-300 hover:text-white transition-colors duration-200"
+          >
+            Contacte
+          </Link>
+
         </div>
       </div>
     </footer>
