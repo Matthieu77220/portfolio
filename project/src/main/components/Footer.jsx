@@ -45,7 +45,7 @@ function Footer({ darkMode, setDarkMode }) {
             to="/contact"
             className="text-purple-300 hover:text-white transition-colors duration-200"
           >
-            Contacte
+            Me contacter
           </Link>
 
         </div>
